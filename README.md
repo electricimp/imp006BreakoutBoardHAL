@@ -1,4 +1,4 @@
-# imp006 Breakout Board Hardware Abstraction Layer 1.0.0
+# imp006 Breakout Board Hardware Abstraction Layer 0.1.0
 
 Use the `BreakoutBoard_006` table to access the hardware pins, I&sup2;C sensor addresses, I&sup2;C and UART bus objects.
 
