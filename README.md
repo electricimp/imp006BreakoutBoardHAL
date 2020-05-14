@@ -1,16 +1,16 @@
 # imp006 Breakout Board Hardware Abstraction Layer
 
-Use the imp006BreakoutBoard table to access the hardware pins, I&sup2;C sensor addresses, I&sup2;C and UART bus objects.
+Use the `BreakoutBoard_006` table to access the hardware pins, I&sup2;C sensor addresses, I&sup2;C and UART bus objects.
 
-## imp006BreakoutBoard
+## BreakoutBoard_006
 
 * Coming soon
 
 ## Example
 
 ```squirrel
-imp006BreakoutBoard.SENSOR_I2C.configure(CLOCK_SPEED_400_KHZ);
-tempHumid <- HTS221(imp006BreakoutBoard.SENSOR_I2C, imp006BreakoutBoard.TEMP_HUMID_I2C_ADDR);
+BreakoutBoard_006.SENSOR_I2C.configure(CLOCK_SPEED_400_KHZ);
+tempHumid <- HTS221(BreakoutBoard_006.SENSOR_I2C, BreakoutBoard_006.TEMP_HUMID_I2C_ADDR);
 ```
 
 ## License
