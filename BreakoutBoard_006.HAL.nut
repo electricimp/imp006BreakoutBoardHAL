@@ -8,16 +8,15 @@ BreakoutBoard_006 <- {
     "BATT_I2C": hardware.i2cLM,
     "BATT_GAUGE_ADDR": 0x6C,
     "BATT_PMU_ADDR": 0xD6,
-    "BATT_PMU_PIN_IRC": hardware.pinXM,     // Solder bridge W3 to use this pin
-    "BATT_PMU_PIN_BOOST": hardware.pinYC,   // Solder bridge W10 to use this pin
-    "MODEM_PWR_STATUS": hardware.pinXL,     // Solder bridge W11 to use this pin
+    "BATT_PMU_PIN_IRQ": hardware.pinXM,      // Solder bridge W3 to use this pin
+    "BATT_PMU_PIN_BOOST": hardware.pinYC,    // Solder bridge W10 to use this pin
+    "MODEM_BROWNOUT_STATUS": hardware.pinXL, // Solder bridge W11 to use this pin
     "GROVE_PWR_GATE": hardware.pinXU,
-    "GROVE_DO": hardware.pinN,
+    "GROVE_D0": hardware.pinN,
     "GROVE_D1": hardware.pinXN,
     "GROVE_A0": hardware.pinN,
     "GROVE_A1": hardware.pinXN,
     "GROVE_I2C": hardware.i2cTU,
-    "GROVE_UART": hardware.uartHJKL,
     "CLICK_PIN_AN": hardware.pinV,
     "CLICK_PIN_RST": hardware.pinYH,
     "CLICK_PIN_CS": hardware.pinH,
@@ -29,7 +28,7 @@ BreakoutBoard_006 <- {
     "CLICK_PIN_TX": hardware.pinXE,
     "CLICK_PIN_RX": hardware.pinXF,
     "CLICK_PIN_INT": hardware.pinW,
-    "CLICK_PIN_PWM": hardware.pinXH,
+    "CLICK_PIN_PWM": hardware.pinXG,
     "J7_PIN_2": hardware.pinXH,
     "J7_PIN_3": hardware.pinXG,
     "J7_PIN_4": hardware.pinXF,
@@ -37,8 +36,8 @@ BreakoutBoard_006 <- {
     "J7_UART": hardware.uartXEFG,
     "J15_PIN_2": hardware.pinYM,
     "J15_PIN_3": hardware.pinYL,
-    "J15_PIN_4": hardware.pinYL,
-    "J15_PIN_5": hardware.pinYL,
+    "J15_PIN_4": hardware.pinYK,
+    "J15_PIN_5": hardware.pinYJ,
     "J15_UART": hardware.uartYJKLM,
     "BLUETOOTH": hardware.bluetooth,
     "WAKE_PIN_1": hardware.pinW,
