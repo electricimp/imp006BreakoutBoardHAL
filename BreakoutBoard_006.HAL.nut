@@ -33,7 +33,7 @@ BreakoutBoard_006 <- {
     "J7_PIN_3": hardware.pinXG,
     "J7_PIN_4": hardware.pinXF,
     "J7_PIN_5": hardware.pinXE,
-    "J7_UART": hardware.uartXEFG,
+    "J7_UART": hardware.uartXEFGH,
     "J15_PIN_2": hardware.pinYM,
     "J15_PIN_3": hardware.pinYL,
     "J15_PIN_4": hardware.pinYK,
